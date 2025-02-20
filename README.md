@@ -26,8 +26,6 @@
    - Si especificas un directorio o archivo de corte, solo se moverá esa parte, y se eliminará el resto de la carpeta temporal.
 3. **Limpieza:** Finalmente, el script limpia la carpeta temporal (`/opt/gitinstall/tmp`) para evitar acumulación de datos innecesarios.
 
-> **Importante**: Para que funcione correctamente, primero debes ejecutar el script con la opción `-S` (setup) como `root`, de modo que se creen los directorios y permisos necesarios en `/opt/gitinstall`.
-
 ---
 
 ## Importante 
