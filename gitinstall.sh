@@ -51,7 +51,7 @@ function help(){
     echo -e "\t${redcolour}[-m]${endcolour}${yellowcolour} --more${endcolour}${greencolour} Permite tener varios directorios de corte. Si usas este parámetro, no uses el parámetro. ${endcolour}${yellowcolour}-f${endcolour} ${greencolour}Ni le añadas nada como argumento${endcolour}"
     echo -e "\t${redcolour}[-q]${endcolour}${yellowcolour} --quiet${endcolour}${greencolour} Solo reporta errores, no imprime nada más.${endcolour}"
     echo -e "\n${redcolour}[+]${endcolour}${greencolour} -- ¿Cómo funciona? --${endcolour}\n"
-    echo -e "\t${redcolour}->${endcolour}${greencolour} primero el script descarga todo el repositorio que le indiques y lo guarda temporalmente en${endcolour}${yellowcolour} /opt/gitinstall/repositories ${endcolour}"
+    echo -e "\t${redcolour}->${endcolour}${greencolour} primero el script descarga todo el repositorio que le indiques y lo guarda temporalmente en${endcolour}${yellowcolour} /opt/gitinstall/tmp ${endcolour}"
     echo -e "\t${redcolour}->${endcolour}${greencolour} por último mueve lo que le indiques al directorio que le indiques, borrando todo lo demás en el proceso.${endcolour}"
     echo -e "\n${redcolour}[+]${endcolour}${greencolour} -- Uso --${endcolour}\n"
     echo -e "\t${redcolour}->${endcolour}${greencolour} Antes de usarlo, ejecuta el script como ${endcolour}${yellowcolour}root${endcolour}${greencolour} con la opción ${endcolour}${yellowcolour}-S${endcolour}${greencolour} para que el script cree en ${endcolour}${yellowcolour}/opt${endcolour}${greencolour} los directorios que necesita para funcionar.${endcolour}"
